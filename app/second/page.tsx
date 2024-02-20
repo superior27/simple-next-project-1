@@ -1,3 +1,8 @@
 export default function second(){
-    return <h1>Second Page!</h1>
+    const content = (
+    <div>
+        <h1>Second Page!</h1>
+    </div>
+    );
+    return content;
 }
